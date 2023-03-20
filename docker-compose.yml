@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  app:
+    networks:
+        - back_net
+  db:
+    image: postgres
+    restart: always
+    env_file: .env
+    networks:
+        - back_net
+    volumes:
+      - ./db/postgresql:/var/lib/postgresql
+    ports:
+      - "5432:5432"
