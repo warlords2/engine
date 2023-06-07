@@ -13,6 +13,7 @@
   "dependencies": {
     "@warlords/common": "github:warlords2/common",
     "@warlords/storage": "github:warlords2/storage",
-    "dotenv": "16.0.3"
+    "dotenv": "16.0.3",
+    "redis": "^4.6.7"
   }
 }
