@@ -3,7 +3,6 @@ FROM node:18
 WORKDIR /app
 COPY package.json /app/
 COPY nodemon.json /app/
-COPY index.js /app/
 # COPY .env /app/
 
 ENV GAME_MACHINE_PORT 5000
