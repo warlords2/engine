@@ -10,6 +10,7 @@
   },
   "author": "gil",
   "dependencies": {
+    "@warlords/audit": "github:warlords2/audit",
     "@warlords/common": "github:warlords2/common",
     "@warlords/storage": "github:warlords2/storage",
     "dotenv": "16.0.3",
