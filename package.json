@@ -4,6 +4,10 @@
   "license": "BSD",
   "description": "",
   "main": "src/index.js",
+  "engines": {
+    "npm": "^8.19.3",
+    "node": "18.12.0"
+  },
   "scripts": {
     "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
